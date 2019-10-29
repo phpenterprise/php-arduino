@@ -1,5 +1,5 @@
 # PHP Arduino
-Send commands to your Arduino board with PHP
+Send commands to your Arduino board using PHP
 
 *Requirements*
 
