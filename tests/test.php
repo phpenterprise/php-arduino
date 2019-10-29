@@ -13,7 +13,7 @@ $ard->sendCommand('command', 'read');
 
 // add command (send message, change with your phone number)
 $ard->sendCommand('command', 'send');
-$ard->sendCommand('number', '048984632799'); 
+$ard->sendCommand('number', '047991919191'); 
 $ard->sendCommand('content', 'SMS sent using PHP and Arduino technology');
 
 // add command (wait complete SMS send)
