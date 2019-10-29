@@ -3,6 +3,8 @@
 // autoload composer
 require_once __DIR__ . '/../vendor/autoload.php';
 
+use PhpArduino\Arduino;
+
 // instance class
 $ard = new Arduino('COM5', "w+b");
 
