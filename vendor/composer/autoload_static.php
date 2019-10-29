@@ -6,30 +6,20 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit975c8ac6cca66010f0d6c49a8f5e28f7
 {
-    public static $prefixLengthsPsr4 = array (
-        'A' => 
+    public static $prefixesPsr0 = array (
+        'P' => 
         array (
-            'Arduino\\' => 8,
+            'PhpArduino' => 
+            array (
+                0 => __DIR__ . '/../..' . '/src',
+            ),
         ),
-    );
-
-    public static $prefixDirsPsr4 = array (
-        'Arduino\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/marabesi/arduino-php-wrapper/src',
-        ),
-    );
-
-    public static $classMap = array (
-        'PhpSerial' => __DIR__ . '/..' . '/hyperthese/php-serial/src/PhpSerial.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit975c8ac6cca66010f0d6c49a8f5e28f7::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit975c8ac6cca66010f0d6c49a8f5e28f7::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit975c8ac6cca66010f0d6c49a8f5e28f7::$classMap;
+            $loader->prefixesPsr0 = ComposerStaticInit975c8ac6cca66010f0d6c49a8f5e28f7::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }

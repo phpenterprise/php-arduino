@@ -6,5 +6,4 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Arduino\\' => array($vendorDir . '/marabesi/arduino-php-wrapper/src'),
 );

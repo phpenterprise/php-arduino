@@ -1,7 +1,0 @@
-<phpunit bootstrap="vendor/autoload.php">
-    <testsuites>
-        <testsuite name="Arduino wrapper">
-            <directory>tests</directory>
-        </testsuite>
-    </testsuites>
-</phpunit>

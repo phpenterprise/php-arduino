@@ -6,5 +6,4 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'PhpSerial' => $vendorDir . '/hyperthese/php-serial/src/PhpSerial.php',
 );
